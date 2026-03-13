@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>standardcell:pmos_char_sch:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>pmos_char_sch</value>
+					</option>
+					<option>lib
+						<value>standardcell</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>tmpstate.316227770</value>
+					</option>
+				</tooloptions>
+			</test>
+		</tests>
+		<vars>
+			<var>Lg
+				<value>500n</value>
+				<dependentTests>
+					<dependentTest omitted="0">standardcell:pmos_char_sch:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Vsd
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">standardcell:pmos_char_sch:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Vsg
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">standardcell:pmos_char_sch:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+	</active>
+	<history>History</history>
+</setupdb>
