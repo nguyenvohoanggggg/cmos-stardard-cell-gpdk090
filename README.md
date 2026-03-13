@@ -123,4 +123,9 @@ If you want to review or continue this project:
 4. Use the Verilog files as a quick reference for expected logic functionality.
 5. Read the documentation in [docs](docs) for analysis notes and the final report.
 
+## Author
 
+**Vo Hoang Nguyen**
+
+- GitHub: https://github.com/nguyenvohoanggggg
+- Email: vohoangnguyen.24ha@gmail.com
