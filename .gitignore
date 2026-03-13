@@ -1,0 +1,56 @@
+# ================================
+# Cadence Virtuoso Lock Files
+# ================================
+*.cdslck
+*.cdslck.*
+*.oa.cdslck
+*.oa.cdslck.*
+
+# ================================
+# Cadence Logs
+# ================================
+*.log
+*.LOG
+*.out
+*.err
+
+# ================================
+# Simulation / Spectre Outputs
+# ================================
+psf/
+spectre/
+spectre.out
+simvision/
+waves.shm/
+*.trn
+*.raw
+*.ac
+*.sw
+*.tran
+
+# ================================
+# Waveform Dumps
+# ================================
+*.vcd
+*.fsdb
+*.shm
+
+# ================================
+# Temporary / Cache
+# ================================
+*.tmp
+*.bak
+*~
+.cache/
+.history/
+
+# ================================
+# Cadence Generated Thumbnails
+# ================================
+thumbnail.png
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
